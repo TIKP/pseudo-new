@@ -1,6 +1,6 @@
 p:hover {
     color: brown;
-    font-size50px;
+    font-size:50px;
     background-color: aqua;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 2px;
@@ -58,7 +58,7 @@ li:nth-child(2n+1)::before {
 
 #water {
     position: relative;
-    z-index: ;
+    z-index: 0;
     top: -100px;
     left: -100px;
 }
