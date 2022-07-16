@@ -1,0 +1,64 @@
+p:hover {
+    color: brown;
+    font-size50px;
+    background-color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2px;
+    margin: 5px;
+    font-weight: 700;
+
+}
+
+li:nth-child(2n+1)::before {
+    content: 'Name: ';
+    color: red;
+}
+
+.swimming {
+    position: relative;
+    left: 200px;
+}
+
+.swimming div {
+
+    border: 2px dashed red;
+    width: 200px;
+}
+
+
+
+.dummy {
+
+    height: 200px;
+    width: 150px;
+    background-color: coral;
+}
+
+#boy {
+
+    position: relative;
+    z-index: 5;
+    top: 120px;
+    margin-left: 100px;
+}
+.ring1{
+
+    position: sticky;
+    top:100px;
+
+}
+.ring2 {
+
+    position: relative;
+    z-index: 1;
+    margin-left: 100px;
+    top: 50px;
+
+}
+
+#water {
+    position: relative;
+    z-index: ;
+    top: -100px;
+    left: -100px;
+}
